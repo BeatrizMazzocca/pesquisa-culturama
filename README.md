@@ -42,20 +42,6 @@ O projeto foi estruturado para demonstrar domínio em:
 
 ---
 
-## 📂 Estrutura do Projeto
-
-pesquisa-culturama/
-├── css/
-│ └── style.css
-├── img/
-│ ├── logo-culturama.png
-│ └── culturama-favicon.png
-├── index.html
-├── sucesso.html
-└── README.md
-
----
-
 ## 🧩 Funcionalidades Implementadas
 
 - Formulário dividido em seções lógicas:
