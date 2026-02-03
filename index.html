@@ -3,22 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="culturama-favico.png">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans&display=swap" rel="stylesheet">
-
     <title>Pesquisa Culturama</title>
 </head>
 <body>
-    <main>
-        <header>
-            <img src="img/logo-culturama.png" alt="logo-culturama">
-            <h1>Pesquisa de opinião</h1>
-        </header>
+    <header>
+        <h1>Pesquisa Online</h1>
+    </header>
     <section>
-        <form action="sucesso.html" method="get">
+        <form action="" method="get">
             <fieldset>
                 <legend>Dados Pessoais</legend>
 
@@ -45,7 +37,6 @@
                 <legend>Perfil</legend>
 
                 <p>Gênero:</p>
-                
                 <input id="fem" type="radio"name="userGender" value="Feminino">
                 <label for="fem">Feminino</label>
 
@@ -105,8 +96,8 @@
             <fieldset>
                 <legend>Hábitos</legend>
 
-                <p>Redes Sociais:</p>
-                
+                <p>Redes Sociais</p>
+
                 <input id="instagram" type="checkbox" name="social" value="instagram">
                 <label for="instagram">Instagram</label>
                 <br>
@@ -141,7 +132,7 @@
             <fieldset>
                 <legend>Opinião</legend>
                 <p>O que você acha da qualidade do nosso serviço?</p>
-                                
+                
                 <input id="otimo" type="radio"name="userServiceOpnion" value="otimo">
                 <label for="otimo">Ótimo</label>
 
@@ -164,17 +155,14 @@
 
                 <input type="checkbox" name="userLgpd" id="userLgpdTerm" value="accepted" required>
                 <label for="userLgpdTerm">Eu aceito participar da pesquisa</label>
-                <br>
+
                 <input type="checkbox" name="userGetResult" id="userResult" value="accepted">
                 <label for="userGetResult">Desejo receber o resultado da pesquisa por email</label>
             </fieldset>
-
             <button type="submit">Enviar</button>
             <button type="reset">Limpar</button>
 
         </form>
     </section>
-    </main>
- 
 </body>
 </html>
